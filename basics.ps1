@@ -30,3 +30,7 @@ $LoggedUsers
 (Get-WmiObject -Class Win32_ComputerSystem).WorkGroup
 $domainName = $env:USERDOMAIN
 $domainName
+
+#Check if RDP is enabled
+(Get-WmiObject -Class "Win32_TerminalServiceSetting" -Namespace root\cimv2\terminalservices).AllowTSConnections
+
