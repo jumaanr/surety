@@ -34,3 +34,13 @@ $domainName
 #Check if RDP is enabled
 (Get-WmiObject -Class "Win32_TerminalServiceSetting" -Namespace root\cimv2\terminalservices).AllowTSConnections
 
+#Change hostname via PowerShell
+Get-ComputerInfo -Property 'QA-WEB1'
+Rename-Computer -NewName "NewHostname" -Restart
+
+# Activating Windows
+dism /online /get-currentedition
+dism /online /get-targeteditions
+dism /online /set-edition:serverstandard /productkey:<KEY-KEY-KEY-KEY-KEY> /accepteula
+dism /online /set-edition:serverstandard /productkey:DWJNB-WJ2DK-KX3YF-C6DJH-RGGK2 /accepteula
+#check the activation status

@@ -23,4 +23,3 @@ rolenamelist. A comma-separated list of AD DS role names to move to the target s
     #Transfer multiple FSMO Roles
     Move-ADDirectoryServerOperationsMasterRole -Identity "DC3" -OperationsMasterRole PDCEmulator, InfrastructureMaster -Force
 
- 
