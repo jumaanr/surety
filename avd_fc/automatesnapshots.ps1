@@ -18,3 +18,9 @@ $snapshotConfig=New-AzSnapshotConfig -SourceUri $yourDisk.Id -Location $yourDisk
 New-AzSnapshot -ResourceGroupName $resourceGroupName -SnapshotName $snapshotName -Snapshot $snapshotConfig
 
 # https://learn.microsoft.com/en-us/azure/virtual-machines/disks-incremental-snapshots?tabs=azure-powershell
+
+Connect-AzAccount
+Disconnect-AzAccount
+Get-AzSystemAssignedIdentity -Scope /subscriptions/c187e445-4fb2-4438-8629-c822fabcc911
+Connect-AzAccount -Identity
+Get-AzDisk -ResourceGroupName rg-auststheast-1 
