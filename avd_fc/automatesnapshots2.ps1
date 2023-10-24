@@ -1,3 +1,11 @@
+<#
+    Version: 2.0
+    Author: Jumaan Rimzy behalf of SuretyIT
+    Creation Date: 10/24/23
+    Purpose/Change: Creating Azure Managed Disk Snapshot daily
+
+#>
+
 # Define variables
 $resourceGroupName = "rg-auststheast-1"
 $diskName_osDisk = "vm-fc-azu-fw01_OsDisk_1_28ed602e556041099b349f1464ec1d84"

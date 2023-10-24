@@ -1,3 +1,11 @@
+<#
+    Version: 2.0
+    Author: Jumaan Rimzy behalf of SuretyIT
+    Creation Date: 10/24/23
+    Purpose/Change: Delete Azure Managed Disk Snapshot older than 5 days
+
+#>
+
 # Define Variables
 $backup_ResourGroup = "AzureBackupRG_australiasoutheast_1"
 
@@ -13,7 +21,7 @@ $tagValue = "vm-fc-azu-fw01"
 # Get snapshots with the specified tag and value
 $snapshots = Get-AzSnapshot -ResourceGroupName $backup_ResourGroup | Where-Object { $_.Tags[$tagName] -eq $tagValue }
 # Get snapshots older than 5 days
-$snapshots = $snapshots | Where-Object { $_.TimeCreated -lt $thresholdDate }
+#$snapshots = $snapshots | Where-Object { $_.TimeCreated -lt $thresholdDate }
 # Get snapshots which are incremental
 $snapshots = $snapshots | Where-Object {$_.Incremental}
 #-----------------------------------------------
