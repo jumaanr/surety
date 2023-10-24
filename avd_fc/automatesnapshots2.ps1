@@ -2,6 +2,7 @@
 $resourceGroupName = "rg-auststheast-1"
 $diskName_osDisk = "vm-fc-azu-fw01_OsDisk_1_28ed602e556041099b349f1464ec1d84"
 $diskName_dataDisk = "vm-fc-azu-fw01_disk2_5034d9c227fa41a0963e236c88ab8d2e"
+$backup_ResourGroup = "AzureBackupRG_australiasoutheast_1"
 
 #Tags
 $tags = @{
@@ -24,28 +25,21 @@ Write-Host $snapshotName_dataDisk
 $managedDisk_osDisk = Get-AzDisk -ResourceGroupName $resourceGroupName -DiskName $diskName_osDisk
 $managedDisk_dataDisk = Get-AzDisk -ResourceGroupName $resourceGroupName -DiskName $diskName_dataDisk
 
-## Create an incremental snapshot by setting the SourceUri property with the value of the Id property of the disk
-$snapshotConfig_osDisk=New-AzSnapshotConfig -SourceUri $managedDisk_osDisk.Id -Location $managedDisk_osDisk.Location -CreateOption Copy -Incremental -Tag $tags
-New-AzSnapshot -ResourceGroupName AzureBackupRG_australiasoutheast_1 -SnapshotName $snapshotName_osDisk -Snapshot $snapshotConfig_osDisk
+try {
+    
+    ## Create an incremental snapshot by setting the SourceUri property with the value of the Id property of the disk
+    $snapshotConfig_osDisk=New-AzSnapshotConfig -SourceUri $managedDisk_osDisk.Id -Location $managedDisk_osDisk.Location -CreateOption Copy -Incremental -Tag $tags
+    $_newSnapshot1 = New-AzSnapshot -ResourceGroupName $backup_ResourGroup -SnapshotName $snapshotName_osDisk -Snapshot $snapshotConfig_osDisk
+    Write-Output "Snapshot Created : $($_newSnapshot1.Name)"
 
-## Create an incremental snapshot by setting the SourceUri property with the value of the Id property of the disk
-$snapshotConfig_dataDisk=New-AzSnapshotConfig -SourceUri $managedDisk_dataDisk.Id -Location $managedDisk_dataDisk.Location -CreateOption Copy -Incremental -Tag $tags
-New-AzSnapshot -ResourceGroupName AzureBackupRG_australiasoutheast_1 -SnapshotName $snapshotName_dataDisk -Snapshot $snapshotConfig_dataDisk
+    ## Create an incremental snapshot by setting the SourceUri property with the value of the Id property of the disk
+    $snapshotConfig_dataDisk=New-AzSnapshotConfig -SourceUri $managedDisk_dataDisk.Id -Location $managedDisk_dataDisk.Location -CreateOption Copy -Incremental -Tag $tags
+    $_newSnapshot2 =New-AzSnapshot -ResourceGroupName $backup_ResourGroup -SnapshotName $snapshotName_dataDisk -Snapshot $snapshotConfig_dataDisk
+    Write-Output "Snapshot Created : $($_newSnapshot2.Name)"
 
-#---------Retrive the list of AzSnapshots--------#
-# Define the target tag and value
-$tagName = "VM"
-$tagValue = "vm-fc-azu-fw01"
-
-# Get snapshots with the specified tag and value
-$snapshots = Get-AzSnapshot | Where-Object { $_.Tags[$tagName] -eq $tagValue }
-
-# Display information about each matching snapshot
-foreach ($snapshot in $snapshots) {
-    Write-Output "Snapshot Name: $($snapshot.Name)"
-    Write-Output "Resource Group: $($snapshot.ResourceGroupName)"
-    Write-Output "ID: $($snapshot.Id)"
-    Write-Output "Creation Time: $($snapshot.TimeCreated)"
-    Write-Output "--------------------------------"
+    $_timestamp = Get-Date -Format "yyyy/MM/dd-HH:mm:ss"
+    Write-Output "Snapshot creation operation successfully completed at : $($_timestamp)"
 }
-
+catch {
+    Write-Error "Snapshot Creation Operation Failed"
+}
