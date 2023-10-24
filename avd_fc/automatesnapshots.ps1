@@ -24,3 +24,14 @@ Disconnect-AzAccount
 Get-AzSystemAssignedIdentity -Scope /subscriptions/c187e445-4fb2-4438-8629-c822fabcc911
 Connect-AzAccount -Identity
 Get-AzDisk -ResourceGroupName rg-auststheast-1 
+
+
+
+#Precision Code
+# Get the managed disk
+$managedDisk = Get-AzDisk -ResourceGroupName $resourceGroupName -DiskName vm-fc-azu-fw01_disk2_5034d9c227fa41a0963e236c88ab8d2e
+
+
+## Create an incremental snapshot by setting the SourceUri property with the value of the Id property of the disk
+$snapshotConfig=New-AzSnapshotConfig -SourceUri $managedDisk.Id -Location $managedDisk.Location -CreateOption Copy -Incremental
+New-AzSnapshot -ResourceGroupName AzureBackupRG_australiasoutheast_1 -SnapshotName $snapshotName -Snapshot $snapshotConfig 
