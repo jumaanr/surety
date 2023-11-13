@@ -1,0 +1,258 @@
+
+AcceptMessagesOnlyFromWithDisplayNames                 : {}
+AcceptMessagesOnlyFromSendersOrMembersWithDisplayNames : {}
+AcceptMessagesOnlyFromDLMembersWithDisplayNames        : {}
+Database                                               : APCPR04DG409-db022
+DatabaseGuid                                           : a4cee3ce-b72e-4531-9128-6cb7f3f40ad9
+MailboxProvisioningConstraint                          : 
+IsMonitoringMailbox                                    : False
+MailboxRegion                                          : 
+MailboxRegionLastUpdateTime                            : 
+MailboxRegionSuffix                                    : None
+MessageRecallProcessingEnabled                         : True
+MessageCopyForSentAsEnabled                            : False
+MessageCopyForSendOnBehalfEnabled                      : False
+MailboxProvisioningPreferences                         : {}
+UseDatabaseRetentionDefaults                           : False
+RetainDeletedItemsUntilBackup                          : False
+DeliverToMailboxAndForward                             : False
+IsExcludedFromServingHierarchy                         : False
+IsHierarchyReady                                       : True
+IsHierarchySyncEnabled                                 : True
+IsPublicFolderSystemMailbox                            : False
+HasSnackyAppData                                       : False
+LitigationHoldEnabled                                  : False
+SingleItemRecoveryEnabled                              : True
+RetentionHoldEnabled                                   : False
+EndDateForRetentionHold                                : 
+StartDateForRetentionHold                              : 
+RetentionComment                                       : 
+RetentionUrl                                           : 
+LitigationHoldDate                                     : 
+LitigationHoldOwner                                    : 
+ElcProcessingDisabled                                  : False
+ComplianceTagHoldApplied                               : False
+WasInactiveMailbox                                     : False
+DelayHoldApplied                                       : False
+DelayReleaseHoldApplied                                : False
+PitrEnabled                                            : False
+PitrCopyIntervalInSeconds                              : 0
+PitrPaused                                             : False
+PitrPausedTimestamp                                    : 
+PitrOffboardedTimestamp                                : 
+InactiveMailboxRetireTime                              : 
+OrphanSoftDeleteTrackingTime                           : 
+LitigationHoldDuration                                 : Unlimited
+ManagedFolderMailboxPolicy                             : 
+RetentionPolicy                                        : Default MRM Policy
+AddressBookPolicy                                      : 
+CalendarRepairDisabled                                 : False
+ExchangeGuid                                           : 2f06b077-339a-4769-9d8b-3b8f76176649
+MailboxContainerGuid                                   : 
+UnifiedMailbox                                         : 
+MailboxLocations                                       : {1;2f06b077-339a-4769-9d8b-3b8f76176649;Primary;apcprd04.prod.outlook.com;a4cee3ce-b72e-4531-9128-6cb7f3f40ad9}
+AggregatedMailboxGuids                                 : {}
+ExchangeSecurityDescriptor                             : System.Security.AccessControl.RawSecurityDescriptor
+ExchangeUserAccountControl                             : None
+AdminDisplayVersion                                    : Version 15.20 (Build 6954.19)
+MessageTrackingReadStatusEnabled                       : True
+ExternalOofOptions                                     : External
+ForwardingAddress                                      : 
+ForwardingSmtpAddress                                  : 
+RetainDeletedItemsFor                                  : 14.00:00:00
+IsMailboxEnabled                                       : True
+Languages                                              : {en-US}
+OfflineAddressBook                                     : 
+ProhibitSendQuota                                      : 99 GB (106,300,440,576 bytes)
+ProhibitSendReceiveQuota                               : 100 GB (107,374,182,400 bytes)
+RecoverableItemsQuota                                  : 30 GB (32,212,254,720 bytes)
+RecoverableItemsWarningQuota                           : 20 GB (21,474,836,480 bytes)
+CalendarLoggingQuota                                   : 6 GB (6,442,450,944 bytes)
+DowngradeHighPriorityMessagesEnabled                   : False
+ProtocolSettings                                       : {MAPI§1§0§§§0§§§§§0, PublicFolderClientAccess§0, IMAP4§1§§§§§§§§§§§§, POP3§1§§§§§§§§§§§§1…}
+RecipientLimits                                        : 500
+ImListMigrationCompleted                               : False
+SiloName                                               : 
+IsResource                                             : False
+IsLinked                                               : False
+IsShared                                               : False
+IsRootPublicFolderMailbox                              : False
+LinkedMasterAccount                                    : 
+ResetPasswordOnNextLogon                               : False
+ResourceCapacity                                       : 
+ResourceCustom                                         : {}
+ResourceType                                           : 
+RoomMailboxAccountEnabled                              : 
+SamAccountName                                         : michae52120479379018
+SCLDeleteThreshold                                     : 
+SCLDeleteEnabled                                       : 
+SCLRejectThreshold                                     : 
+SCLRejectEnabled                                       : 
+SCLQuarantineThreshold                                 : 
+SCLQuarantineEnabled                                   : 
+SCLJunkThreshold                                       : 
+SCLJunkEnabled                                         : 
+AntispamBypassEnabled                                  : False
+ServerLegacyDN                                         : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=KL1PR0401MB5519
+ServerName                                             : kl1pr0401mb5519
+UseDatabaseQuotaDefaults                               : False
+IssueWarningQuota                                      : 98 GB (105,226,698,752 bytes)
+RulesQuota                                             : 256 KB (262,144 bytes)
+Office                                                 : 
+UserPrincipalName                                      : michael@qandaresearch.com.au
+UMEnabled                                              : False
+MaxSafeSenders                                         : 
+MaxBlockedSenders                                      : 
+NetID                                                  : 1003BFFD8ED4A8E1
+ReconciliationId                                       : 
+WindowsLiveID                                          : michael@qandaresearch.com.au
+MicrosoftOnlineServicesID                              : michael@qandaresearch.com.au
+ThrottlingPolicy                                       : 
+RoleAssignmentPolicy                                   : Default Role Assignment Policy
+DefaultPublicFolderMailbox                             : 
+EffectivePublicFolderMailbox                           : 
+SharingPolicy                                          : Default Sharing Policy
+RemoteAccountPolicy                                    : 
+MailboxPlan                                            : ExchangeOnlineEnterprise-10f2a304-8cfa-4da1-8ca9-a525a3847bf5
+ArchiveDatabase                                        : 
+ArchiveDatabaseGuid                                    : 00000000-0000-0000-0000-000000000000
+ArchiveGuid                                            : 00000000-0000-0000-0000-000000000000
+ArchiveName                                            : {}
+JournalArchiveAddress                                  : 
+ArchiveQuota                                           : 100 GB (107,374,182,400 bytes)
+ArchiveWarningQuota                                    : 90 GB (96,636,764,160 bytes)
+ArchiveDomain                                          : 
+ArchiveStatus                                          : None
+ArchiveState                                           : None
+AutoExpandingArchiveEnabled                            : False
+DisabledMailboxLocations                               : False
+RemoteRecipientType                                    : None
+DisabledArchiveDatabase                                : 
+DisabledArchiveGuid                                    : 00000000-0000-0000-0000-000000000000
+QueryBaseDN                                            : 
+QueryBaseDNRestrictionEnabled                          : False
+MailboxMoveTargetMDB                                   : 
+MailboxMoveSourceMDB                                   : 
+MailboxMoveFlags                                       : None
+MailboxMoveRemoteHostName                              : 
+MailboxMoveBatchName                                   : 
+MailboxMoveStatus                                      : None
+MailboxRelease                                         : E15
+ArchiveRelease                                         : 
+IsPersonToPersonTextMessagingEnabled                   : False
+IsMachineToPersonTextMessagingEnabled                  : True
+UserSMimeCertificate                                   : {}
+UserCertificate                                        : {}
+CalendarVersionStoreDisabled                           : False
+ImmutableId                                            : 
+PersistedCapabilities                                  : {BPOS_S_Enterprise}
+SKUAssigned                                            : True
+AuditEnabled                                           : True
+AuditLogAgeLimit                                       : 90.00:00:00
+AuditAdmin                                             : {Update, MoveToDeletedItems, SoftDelete, HardDelete…}
+AuditDelegate                                          : {Update, MoveToDeletedItems, SoftDelete, HardDelete…}
+AuditOwner                                             : {Update, MoveToDeletedItems, SoftDelete, HardDelete…}
+DefaultAuditSet                                        : {Admin, Delegate, Owner}
+WhenMailboxCreated                                     : 9/8/2023 11:30:10 AM
+SourceAnchor                                           : 
+UsageLocation                                          : Australia
+IsSoftDeletedByRemove                                  : False
+IsSoftDeletedByDisable                                 : False
+IsInactiveMailbox                                      : False
+IncludeInGarbageCollection                             : False
+WhenSoftDeleted                                        : 
+InPlaceHolds                                           : {}
+GeneratedOfflineAddressBooks                           : {}
+AccountDisabled                                        : False
+StsRefreshTokensValidFrom                              : 7/8/2021 1:06:37 PM
+NonCompliantDevices                                    : {}
+EnforcedTimestamps                                     : [{"EventTimestamp":"2023-09-19T23:42:12.7295825Z","EnforcedUntilTimestamp":"2023-09-19T23:37:12.7295825Z","EventType":26},{"EventTimestamp":"2021-07-08T03:07:20.9715186Z","EnforcedUntilTimestamp":"2021-07-08T03:02:20.9715186Z","EventType":17},{"EventTimestamp":"2020-08-03T05:14:49.534Z","EnforcedUntilTimestamp":"2020-08-03T05:08:07Z","EventType":1},{"EventTimestamp":"2020-08-03T05:14:49.534Z","EnforcedUntilTimestamp":"2020-08-03T05:08:07Z","EventType":17},{"EventTimestamp":"2020-08-03T05:08:48.176Z","EnforcedUntilTimestamp":"2020-08-03T05:03:29Z","EventType":1}]
+DataEncryptionPolicy                                   : 
+MessageCopyForSMTPClientSubmissionEnabled              : True
+RecipientThrottlingThreshold                           : Standard
+SharedEmailDomainTenant                                : 
+SharedEmailDomainState                                 : None
+SharedWithTargetSmtpAddress                            : 
+SharedEmailDomainStateLastModified                     : 
+EmailAddressDisplayNames                               : {}
+ResourceProvisioningOptions                            : {}
+Extensions                                             : {}
+HasPicture                                             : False
+HasSpokenName                                          : False
+IsDirSynced                                            : True
+AcceptMessagesOnlyFrom                                 : {}
+AcceptMessagesOnlyFromDLMembers                        : {}
+AcceptMessagesOnlyFromSendersOrMembers                 : {}
+AddressListMembership                                  : {\All Mailboxes(VLV), \All Recipients(VLV), \Mailboxes(VLV), \Default Global Address List…}
+AdministrativeUnits                                    : {}
+Alias                                                  : michael
+ArbitrationMailbox                                     : 
+BypassModerationFromSendersOrMembers                   : {}
+OrganizationalUnit                                     : apcpr04a002.prod.outlook.com/Microsoft Exchange Hosted Organizations/qandaresearch.onmicrosoft.com
+CustomAttribute1                                       : 
+CustomAttribute10                                      : 
+CustomAttribute11                                      : 
+CustomAttribute12                                      : 
+CustomAttribute13                                      : 
+CustomAttribute14                                      : 
+CustomAttribute15                                      : 
+CustomAttribute2                                       : 
+CustomAttribute3                                       : 
+CustomAttribute4                                       : 
+CustomAttribute5                                       : 
+CustomAttribute6                                       : 
+CustomAttribute7                                       : 
+CustomAttribute8                                       : 
+CustomAttribute9                                       : 
+ExtensionCustomAttribute1                              : {}
+ExtensionCustomAttribute2                              : {}
+ExtensionCustomAttribute3                              : {}
+ExtensionCustomAttribute4                              : {}
+ExtensionCustomAttribute5                              : {}
+DisplayName                                            : Michael Harding
+EmailAddresses                                         : {smtp:brodie.black@qandaresearch.com.au, smtp:administrator@qandaresearch.com.au, X500:/o=MILTONQA/ou=first administrative group/cn=Recipients/cn=michael, smtp:michael@qandaresearch.onmicrosoft.com…}
+GrantSendOnBehalfTo                                    : {}
+ExternalDirectoryObjectId                              : cb215b97-eb13-4804-b4fb-af2003c38c5f
+HiddenFromAddressListsEnabled                          : False
+LastExchangeChangedTime                                : 
+LegacyExchangeDN                                       : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6b3a923bdc514ac3b0d1ea73c423dfb4-Michael Har
+MaxSendSize                                            : 132.7 MB (139,100,160 bytes)
+MaxReceiveSize                                         : 133.7 MB (140,148,736 bytes)
+ModeratedBy                                            : {}
+ModerationEnabled                                      : False
+PoliciesIncluded                                       : {}
+PoliciesExcluded                                       : {{26491cfc-9e50-4857-861b-0cb8df22b5d7}}
+EmailAddressPolicyEnabled                              : False
+PrimarySmtpAddress                                     : michael.harding@qandaresearch.com.au
+RecipientType                                          : UserMailbox
+RecipientTypeDetails                                   : UserMailbox
+RejectMessagesFrom                                     : {}
+RejectMessagesFromDLMembers                            : {}
+RejectMessagesFromSendersOrMembers                     : {}
+RequireSenderAuthenticationEnabled                     : False
+SimpleDisplayName                                      : 
+SendModerationNotifications                            : Always
+UMDtmfMap                                              : {emailAddress:64242354273464, lastNameFirstName:42734646424235, firstNameLastName:64242354273464}
+WindowsEmailAddress                                    : michael.harding@qandaresearch.com.au
+MailTip                                                : 
+MailTipTranslations                                    : {}
+Identity                                               : Michael Harding
+Id                                                     : Michael Harding
+IsValid                                                : True
+ExchangeVersion                                        : 0.20 (15.0.0.0)
+Name                                                   : Michael Harding
+DistinguishedName                                      : CN=Michael Harding,OU=qandaresearch.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=APCPR04A002,DC=prod,DC=outlook,DC=com
+ObjectCategory                                         : APCPR04A002.prod.outlook.com/Configuration/Schema/Person
+ObjectClass                                            : {top, person, organizationalPerson, user}
+WhenChanged                                            : 11/1/2023 4:19:40 PM
+WhenCreated                                            : 3/17/2015 2:05:22 PM
+WhenChangedUTC                                         : 11/1/2023 6:19:40 AM
+WhenCreatedUTC                                         : 3/17/2015 4:05:22 AM
+ExchangeObjectId                                       : d887cac0-a069-4394-a8a8-ef589e6e6940
+OrganizationalUnitRoot                                 : qandaresearch.onmicrosoft.com
+OrganizationId                                         : APCPR04A002.prod.outlook.com/Microsoft Exchange Hosted Organizations/qandaresearch.onmicrosoft.com - APCPR04A002.prod.outlook.com/ConfigurationUnits/qandaresearch.onmicrosoft.com/Configuration
+Guid                                                   : d887cac0-a069-4394-a8a8-ef589e6e6940
+OriginatingServer                                      : PS2PR04A02DC002.APCPR04A002.prod.outlook.com
+ObjectState                                            : Unchanged
+
+

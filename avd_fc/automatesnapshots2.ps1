@@ -5,6 +5,11 @@
     Purpose/Change: Creating Azure Managed Disk Snapshot daily
 
 #>
+# Connect to the Azure account using managed identity
+Connect-AzAccount -Identity
+
+#Set the subscription context
+Set-AzContext -SubscriptionId c187e445-4fb2-4438-8629-c822fabcc911
 
 # Define variables
 $resourceGroupName = "rg-auststheast-1"

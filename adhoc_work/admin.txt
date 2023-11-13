@@ -1,0 +1,258 @@
+
+AcceptMessagesOnlyFromWithDisplayNames                 : {}
+AcceptMessagesOnlyFromSendersOrMembersWithDisplayNames : {}
+AcceptMessagesOnlyFromDLMembersWithDisplayNames        : {}
+Database                                               : APCPR06DG378-db203
+DatabaseGuid                                           : 7b0d6365-c6a5-4f0f-807b-c1e89737e829
+MailboxProvisioningConstraint                          : 
+IsMonitoringMailbox                                    : False
+MailboxRegion                                          : 
+MailboxRegionLastUpdateTime                            : 
+MailboxRegionSuffix                                    : None
+MessageRecallProcessingEnabled                         : True
+MessageCopyForSentAsEnabled                            : False
+MessageCopyForSendOnBehalfEnabled                      : False
+MailboxProvisioningPreferences                         : {}
+UseDatabaseRetentionDefaults                           : False
+RetainDeletedItemsUntilBackup                          : False
+DeliverToMailboxAndForward                             : False
+IsExcludedFromServingHierarchy                         : False
+IsHierarchyReady                                       : True
+IsHierarchySyncEnabled                                 : True
+IsPublicFolderSystemMailbox                            : False
+HasSnackyAppData                                       : False
+LitigationHoldEnabled                                  : False
+SingleItemRecoveryEnabled                              : False
+RetentionHoldEnabled                                   : False
+EndDateForRetentionHold                                : 
+StartDateForRetentionHold                              : 
+RetentionComment                                       : 
+RetentionUrl                                           : 
+LitigationHoldDate                                     : 
+LitigationHoldOwner                                    : 
+ElcProcessingDisabled                                  : False
+ComplianceTagHoldApplied                               : False
+WasInactiveMailbox                                     : False
+DelayHoldApplied                                       : False
+DelayReleaseHoldApplied                                : False
+PitrEnabled                                            : False
+PitrCopyIntervalInSeconds                              : 0
+PitrPaused                                             : False
+PitrPausedTimestamp                                    : 
+PitrOffboardedTimestamp                                : 
+InactiveMailboxRetireTime                              : 
+OrphanSoftDeleteTrackingTime                           : 
+LitigationHoldDuration                                 : Unlimited
+ManagedFolderMailboxPolicy                             : 
+RetentionPolicy                                        : 6 Month Auto Archive Retention policy
+AddressBookPolicy                                      : 
+CalendarRepairDisabled                                 : False
+ExchangeGuid                                           : e6edc8f3-fd8d-44c8-8ecd-5504eb885fc2
+MailboxContainerGuid                                   : 
+UnifiedMailbox                                         : 
+MailboxLocations                                       : {1;b3a29626-61eb-485c-9bc3-ec896336c11c;MainArchive;apcprd06.prod.outlook.com;08cceab1-2a2c-4a6f-9d9a-7471fdb296be, 1;e6edc8f3-fd8d-44c8-8ecd-5504eb885fc2;Primary;apcprd06.prod.outlook.com;7b0d6365-c6a5-4f0f-807b-c1e89737e829}
+AggregatedMailboxGuids                                 : {}
+ExchangeSecurityDescriptor                             : System.Security.AccessControl.RawSecurityDescriptor
+ExchangeUserAccountControl                             : None
+AdminDisplayVersion                                    : 
+MessageTrackingReadStatusEnabled                       : True
+ExternalOofOptions                                     : External
+ForwardingAddress                                      : 
+ForwardingSmtpAddress                                  : 
+RetainDeletedItemsFor                                  : 14.00:00:00
+IsMailboxEnabled                                       : True
+Languages                                              : {en-AU}
+OfflineAddressBook                                     : 
+ProhibitSendQuota                                      : 99 GB (106,300,440,576 bytes)
+ProhibitSendReceiveQuota                               : 100 GB (107,374,182,400 bytes)
+RecoverableItemsQuota                                  : 30 GB (32,212,254,720 bytes)
+RecoverableItemsWarningQuota                           : 20 GB (21,474,836,480 bytes)
+CalendarLoggingQuota                                   : 6 GB (6,442,450,944 bytes)
+DowngradeHighPriorityMessagesEnabled                   : False
+ProtocolSettings                                       : {MAPI§1§0§§§0§§§, IMAP4§1§1§§§§§§§5§0§§0§0, POP3§1§1§§§§§§§5§0§§0§0, ECP§1…}
+RecipientLimits                                        : 500
+ImListMigrationCompleted                               : False
+SiloName                                               : 
+IsResource                                             : False
+IsLinked                                               : False
+IsShared                                               : False
+IsRootPublicFolderMailbox                              : False
+LinkedMasterAccount                                    : 
+ResetPasswordOnNextLogon                               : False
+ResourceCapacity                                       : 
+ResourceCustom                                         : {}
+ResourceType                                           : 
+RoomMailboxAccountEnabled                              : 
+SamAccountName                                         : Leah56998-1567789878
+SCLDeleteThreshold                                     : 
+SCLDeleteEnabled                                       : 
+SCLRejectThreshold                                     : 
+SCLRejectEnabled                                       : 
+SCLQuarantineThreshold                                 : 
+SCLQuarantineEnabled                                   : 
+SCLJunkThreshold                                       : 
+SCLJunkEnabled                                         : 
+AntispamBypassEnabled                                  : False
+ServerLegacyDN                                         : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Configuration/cn=Servers/cn=TY1PR06MB1008
+ServerName                                             : ty1pr06mb1008
+UseDatabaseQuotaDefaults                               : False
+IssueWarningQuota                                      : 98 GB (105,226,698,752 bytes)
+RulesQuota                                             : 64 KB (65,536 bytes)
+Office                                                 : Astute Head Office
+UserPrincipalName                                      : Leah.Weekes@astutefinancial.com.au
+UMEnabled                                              : False
+MaxSafeSenders                                         : 
+MaxBlockedSenders                                      : 
+NetID                                                  : 10037FFE85FBCF77
+ReconciliationId                                       : 
+WindowsLiveID                                          : Leah.Weekes@astutefinancial.com.au
+MicrosoftOnlineServicesID                              : Leah.Weekes@astutefinancial.com.au
+ThrottlingPolicy                                       : 
+RoleAssignmentPolicy                                   : Default Role Assignment Policy
+DefaultPublicFolderMailbox                             : 
+EffectivePublicFolderMailbox                           : Calendars
+SharingPolicy                                          : Default Sharing Policy
+RemoteAccountPolicy                                    : 
+MailboxPlan                                            : ExchangeOnlineEnterprise-72d2ca50-b674-4026-af2d-39eb954730ae
+ArchiveDatabase                                        : APCPR06DG319-db510
+ArchiveDatabaseGuid                                    : 08cceab1-2a2c-4a6f-9d9a-7471fdb296be
+ArchiveGuid                                            : b3a29626-61eb-485c-9bc3-ec896336c11c
+ArchiveName                                            : {In-Place Archive -Leah Weekes - Astute}
+JournalArchiveAddress                                  : 
+ArchiveQuota                                           : 100 GB (107,374,182,400 bytes)
+ArchiveWarningQuota                                    : 90 GB (96,636,764,160 bytes)
+ArchiveDomain                                          : 
+ArchiveStatus                                          : Active
+ArchiveState                                           : Local
+AutoExpandingArchiveEnabled                            : False
+DisabledMailboxLocations                               : False
+RemoteRecipientType                                    : None
+DisabledArchiveDatabase                                : 
+DisabledArchiveGuid                                    : 00000000-0000-0000-0000-000000000000
+QueryBaseDN                                            : 
+QueryBaseDNRestrictionEnabled                          : False
+MailboxMoveTargetMDB                                   : 
+MailboxMoveSourceMDB                                   : 
+MailboxMoveFlags                                       : None
+MailboxMoveRemoteHostName                              : 
+MailboxMoveBatchName                                   : 
+MailboxMoveStatus                                      : None
+MailboxRelease                                         : E15
+ArchiveRelease                                         : 
+IsPersonToPersonTextMessagingEnabled                   : False
+IsMachineToPersonTextMessagingEnabled                  : True
+UserSMimeCertificate                                   : {}
+UserCertificate                                        : {}
+CalendarVersionStoreDisabled                           : False
+ImmutableId                                            : 
+PersistedCapabilities                                  : {SBRM, BPOS_S_BookingsAddOn, MYANALYTICSP2, BPOS_S_Enterprise}
+SKUAssigned                                            : True
+AuditEnabled                                           : True
+AuditLogAgeLimit                                       : 180.00:00:00
+AuditAdmin                                             : {Update, MoveToDeletedItems, SoftDelete, HardDelete…}
+AuditDelegate                                          : {Update, MoveToDeletedItems, SoftDelete, HardDelete…}
+AuditOwner                                             : {Update, MoveToDeletedItems, SoftDelete, HardDelete…}
+DefaultAuditSet                                        : {}
+WhenMailboxCreated                                     : 6/12/2013 10:30:15 AM
+SourceAnchor                                           : 
+UsageLocation                                          : Australia
+IsSoftDeletedByRemove                                  : False
+IsSoftDeletedByDisable                                 : False
+IsInactiveMailbox                                      : False
+IncludeInGarbageCollection                             : False
+WhenSoftDeleted                                        : 
+InPlaceHolds                                           : {}
+GeneratedOfflineAddressBooks                           : {}
+AccountDisabled                                        : False
+StsRefreshTokensValidFrom                              : 10/11/2023 3:19:30 PM
+NonCompliantDevices                                    : {}
+EnforcedTimestamps                                     : [{"EventTimestamp":"2023-10-11T05:19:30Z","EnforcedUntilTimestamp":"2023-10-11T05:14:30Z","EventType":17},{"EventTimestamp":"2023-06-01T06:31:07Z","EnforcedUntilTimestamp":"2023-06-01T06:26:07Z","EventType":17},{"EventTimestamp":"2023-01-31T23:22:01Z","EnforcedUntilTimestamp":"2023-01-31T23:17:01Z","EventType":17},{"EventTimestamp":"2022-09-23T00:13:13Z","EnforcedUntilTimestamp":"2022-09-23T00:08:13Z","EventType":17},{"EventTimestamp":"2022-05-17T22:48:40Z","EnforcedUntilTimestamp":"2022-05-17T22:43:40Z","EventType":17}]
+DataEncryptionPolicy                                   : 
+MessageCopyForSMTPClientSubmissionEnabled              : True
+RecipientThrottlingThreshold                           : Standard
+SharedEmailDomainTenant                                : 
+SharedEmailDomainState                                 : None
+SharedWithTargetSmtpAddress                            : 
+SharedEmailDomainStateLastModified                     : 
+EmailAddressDisplayNames                               : {}
+ResourceProvisioningOptions                            : {}
+Extensions                                             : {}
+HasPicture                                             : True
+HasSpokenName                                          : False
+IsDirSynced                                            : False
+AcceptMessagesOnlyFrom                                 : {}
+AcceptMessagesOnlyFromDLMembers                        : {}
+AcceptMessagesOnlyFromSendersOrMembers                 : {}
+AddressListMembership                                  : {\Mailboxes(VLV), \All Mailboxes(VLV), \All Recipients(VLV), \Default Global Address List…}
+AdministrativeUnits                                    : {}
+Alias                                                  : Leah.Weekes
+ArbitrationMailbox                                     : 
+BypassModerationFromSendersOrMembers                   : {}
+OrganizationalUnit                                     : apcpr06a001.prod.outlook.com/Microsoft Exchange Hosted Organizations/astutefinancial.onmicrosoft.com
+CustomAttribute1                                       : 
+CustomAttribute10                                      : 
+CustomAttribute11                                      : 
+CustomAttribute12                                      : 
+CustomAttribute13                                      : 
+CustomAttribute14                                      : 
+CustomAttribute15                                      : 
+CustomAttribute2                                       : 
+CustomAttribute3                                       : 
+CustomAttribute4                                       : 
+CustomAttribute5                                       : 
+CustomAttribute6                                       : 
+CustomAttribute7                                       : 
+CustomAttribute8                                       : 
+CustomAttribute9                                       : 
+ExtensionCustomAttribute1                              : {}
+ExtensionCustomAttribute2                              : {}
+ExtensionCustomAttribute3                              : {}
+ExtensionCustomAttribute4                              : {}
+ExtensionCustomAttribute5                              : {}
+DisplayName                                            : Leah Weekes - Astute
+EmailAddresses                                         : {smtp:emily.shaw@astutefinancial.com.au, smtp:rebecca.chan@astutefinancial.com.au, SIP:Leah.Weekes@astutefinancial.com.au, smtp:admin@astutefinancial.com.au…}
+GrantSendOnBehalfTo                                    : {}
+ExternalDirectoryObjectId                              : 2a08c4c9-d5d5-4a42-94fd-2a8f2e27e34f
+HiddenFromAddressListsEnabled                          : False
+LastExchangeChangedTime                                : 
+LegacyExchangeDN                                       : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=17541f3f5c6d4ff2b04cdee9c50b3de1-Leah.Weekes
+MaxSendSize                                            : 35 MB (36,700,160 bytes)
+MaxReceiveSize                                         : 36 MB (37,748,736 bytes)
+ModeratedBy                                            : {}
+ModerationEnabled                                      : False
+PoliciesIncluded                                       : {}
+PoliciesExcluded                                       : {{26491cfc-9e50-4857-861b-0cb8df22b5d7}}
+EmailAddressPolicyEnabled                              : False
+PrimarySmtpAddress                                     : Leah.Weekes@astutefinancial.com.au
+RecipientType                                          : UserMailbox
+RecipientTypeDetails                                   : UserMailbox
+RejectMessagesFrom                                     : {}
+RejectMessagesFromDLMembers                            : {}
+RejectMessagesFromSendersOrMembers                     : {}
+RequireSenderAuthenticationEnabled                     : False
+SimpleDisplayName                                      : 
+SendModerationNotifications                            : Always
+UMDtmfMap                                              : {lastNameFirstName:9335375324, reversedPhone:9951113370, emailAddress:5324933537, firstNameLastName:5324933537}
+WindowsEmailAddress                                    : Leah.Weekes@astutefinancial.com.au
+MailTip                                                : 
+MailTipTranslations                                    : {}
+Identity                                               : Leah.Weekes
+Id                                                     : Leah.Weekes
+IsValid                                                : True
+ExchangeVersion                                        : 0.20 (15.0.0.0)
+Name                                                   : Leah.Weekes
+DistinguishedName                                      : CN=Leah.Weekes,OU=astutefinancial.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=APCPR06A001,DC=prod,DC=outlook,DC=com
+ObjectCategory                                         : APCPR06A001.prod.outlook.com/Configuration/Schema/Person
+ObjectClass                                            : {top, person, organizationalPerson, user}
+WhenChanged                                            : 10/20/2023 11:30:54 AM
+WhenCreated                                            : 6/12/2013 9:34:15 AM
+WhenChangedUTC                                         : 10/20/2023 1:30:54 AM
+WhenCreatedUTC                                         : 6/11/2013 11:34:15 PM
+ExchangeObjectId                                       : bd792036-568f-46ff-a505-3f2dffd9e551
+OrganizationalUnitRoot                                 : astutefinancial.onmicrosoft.com
+OrganizationId                                         : APCPR06A001.prod.outlook.com/Microsoft Exchange Hosted Organizations/astutefinancial.onmicrosoft.com - APCPR06A001.prod.outlook.com/ConfigurationUnits/astutefinancial.onmicrosoft.com/Configuration
+Guid                                                   : bd792036-568f-46ff-a505-3f2dffd9e551
+OriginatingServer                                      : PSBPR06A01DC001.APCPR06A001.prod.outlook.com
+ObjectState                                            : Unchanged
+
+
